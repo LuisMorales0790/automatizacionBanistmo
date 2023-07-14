@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Tasa nominal a efectiva" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-07-14T22:51:08" hostname="DESKTOP-8KSOOTC" time="43.584">
+  <properties/>
+  <testcase name="Validar tasa nominal a efectiva" classname="Tasa nominal a efectiva" time="43.584"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@607d9a7f
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@68e5c7f0
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@366f767a
+jul 14, 2023 5:51:10 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+[Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
+[Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, chrome.switches: --start-maximized, goog:chromeOptions: {args: [--start-maximized], extensions: []}, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, version: }
+Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 10787
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+jul 14, 2023 5:51:15 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Validar tasa nominal a efectiva:Given luis quiere validar la tasa nominal a efectiva [Luis abrir pagina [luis opens the Url banistmo]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Validar tasa nominal a efectiva:Given luis quiere validar la tasa nominal a efectiva [Luis abrir pagina [luis opens the Url banistmo]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Validar tasa nominal a efectiva:Given luis quiere validar la tasa nominal a efectiva [Luis abrir pagina [luis opens the Url banistmo]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@10505ac4
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@134f34d8
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@4f8f708d
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Validar tasa nominal a efectiva:Given luis quiere validar la tasa nominal a efectiva [Luis abrir pagina [luis opens the Url banistmo]], When accedo al portal de Banistmo
+| intTasaInteres | strPeriodicidad | strCapitalizacion |
+| 10 | Anual | Semestral | [Luis realizar flujo [luis clicks on enlace negocios de Banistmo]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@2e94fe05
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Validar tasa nominal a efectiva:Given luis quiere validar la tasa nominal a efectiva [Luis abrir pagina [luis opens the Url banistmo]], When accedo al portal de Banistmo
+| intTasaInteres | strPeriodicidad | strCapitalizacion |
+| 10 | Anual | Semestral | [Luis realizar flujo [luis clicks on enlace negocios de Banistmo, luis clicks on enlace herramientas de Banistmo]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@1c100d4e
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Validar tasa nominal a efectiva:Given luis quiere validar la tasa nominal a efectiva [Luis abrir pagina [luis opens the Url banistmo]], When accedo al portal de Banistmo
+| intTasaInteres | strPeriodicidad | strCapitalizacion |
+| 10 | Anual | Semestral | [Luis realizar flujo [luis clicks on enlace negocios de Banistmo, luis clicks on enlace herramientas de Banistmo, luis clicks on Boton para moverse a la derecha]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@7c5c6f1d
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Validar tasa nominal a efectiva:Given luis quiere validar la tasa nominal a efectiva [Luis abrir pagina [luis opens the Url banistmo]], When accedo al portal de Banistmo
+| intTasaInteres | strPeriodicidad | strCapitalizacion |
+| 10 | Anual | Semestral | [Luis realizar flujo [luis clicks on enlace negocios de Banistmo, luis clicks on enlace herramientas de Banistmo, luis clicks on Boton para moverse a la derecha, luis clicks on Enlace que envia a la seccion de gestionar las finanzas de mi negocio]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@33a34e5a
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Validar tasa nominal a efectiva:Given luis quiere validar la tasa nominal a efectiva [Luis abrir pagina [luis opens the Url banistmo]], When accedo al portal de Banistmo
+| intTasaInteres | strPeriodicidad | strCapitalizacion |
+| 10 | Anual | Semestral | [Luis realizar flujo [luis clicks on enlace negocios de Banistmo, luis clicks on enlace herramientas de Banistmo, luis clicks on Boton para moverse a la derecha, luis clicks on Enlace que envia a la seccion de gestionar las finanzas de mi negocio, luis clicks on Enlace de convertidor de tasa de interes]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@451a2853
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Validar tasa nominal a efectiva:Given luis quiere validar la tasa nominal a efectiva [Luis abrir pagina [luis opens the Url banistmo]], When accedo al portal de Banistmo
+| intTasaInteres | strPeriodicidad | strCapitalizacion |
+| 10 | Anual | Semestral | [Luis realizar flujo [luis clicks on enlace negocios de Banistmo, luis clicks on enlace herramientas de Banistmo, luis clicks on Boton para moverse a la derecha, luis clicks on Enlace que envia a la seccion de gestionar las finanzas de mi negocio, luis clicks on Enlace de convertidor de tasa de interes, luis clicks on Boton de calcular tasa efectiva a tasa nominal]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@132b7bbe
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Validar tasa nominal a efectiva:Given luis quiere validar la tasa nominal a efectiva [Luis abrir pagina [luis opens the Url banistmo]], When accedo al portal de Banistmo
+| intTasaInteres | strPeriodicidad | strCapitalizacion |
+| 10 | Anual | Semestral | [Luis realizar flujo [luis clicks on enlace negocios de Banistmo, luis clicks on enlace herramientas de Banistmo, luis clicks on Boton para moverse a la derecha, luis clicks on Enlace que envia a la seccion de gestionar las finanzas de mi negocio, luis clicks on Enlace de convertidor de tasa de interes, luis clicks on Boton de calcular tasa efectiva a tasa nominal, luis enters '10' into ingrese la tasa de interes]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@4d736ef9
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Validar tasa nominal a efectiva:Given luis quiere validar la tasa nominal a efectiva [Luis abrir pagina [luis opens the Url banistmo]], When accedo al portal de Banistmo
+| intTasaInteres | strPeriodicidad | strCapitalizacion |
+| 10 | Anual | Semestral | [Luis realizar flujo [luis clicks on enlace negocios de Banistmo, luis clicks on enlace herramientas de Banistmo, luis clicks on Boton para moverse a la derecha, luis clicks on Enlace que envia a la seccion de gestionar las finanzas de mi negocio, luis clicks on Enlace de convertidor de tasa de interes, luis clicks on Boton de calcular tasa efectiva a tasa nominal, luis enters '10' into ingrese la tasa de interes, luis select Anual on seleccione la periodicidad deseada]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@149a3222
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Validar tasa nominal a efectiva:Given luis quiere validar la tasa nominal a efectiva [Luis abrir pagina [luis opens the Url banistmo]], When accedo al portal de Banistmo
+| intTasaInteres | strPeriodicidad | strCapitalizacion |
+| 10 | Anual | Semestral | [Luis realizar flujo [luis clicks on enlace negocios de Banistmo, luis clicks on enlace herramientas de Banistmo, luis clicks on Boton para moverse a la derecha, luis clicks on Enlace que envia a la seccion de gestionar las finanzas de mi negocio, luis clicks on Enlace de convertidor de tasa de interes, luis clicks on Boton de calcular tasa efectiva a tasa nominal, luis enters '10' into ingrese la tasa de interes, luis select Anual on seleccione la periodicidad deseada, luis select Semestral on seleccione la capitalizacion deseada]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Validar tasa nominal a efectiva:Given luis quiere validar la tasa nominal a efectiva [Luis abrir pagina [luis opens the Url banistmo]], When accedo al portal de Banistmo
+| intTasaInteres | strPeriodicidad | strCapitalizacion |
+| 10 | Anual | Semestral | [Luis realizar flujo [luis clicks on enlace negocios de Banistmo, luis clicks on enlace herramientas de Banistmo, luis clicks on Boton para moverse a la derecha, luis clicks on Enlace que envia a la seccion de gestionar las finanzas de mi negocio, luis clicks on Enlace de convertidor de tasa de interes, luis clicks on Boton de calcular tasa efectiva a tasa nominal, luis enters '10' into ingrese la tasa de interes, luis select Anual on seleccione la periodicidad deseada, luis select Semestral on seleccione la capitalizacion deseada]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Validar tasa nominal a efectiva:Given luis quiere validar la tasa nominal a efectiva [Luis abrir pagina [luis opens the Url banistmo]], When accedo al portal de Banistmo
+| intTasaInteres | strPeriodicidad | strCapitalizacion |
+| 10 | Anual | Semestral | [Luis realizar flujo [luis clicks on enlace negocios de Banistmo, luis clicks on enlace herramientas de Banistmo, luis clicks on Boton para moverse a la derecha, luis clicks on Enlace que envia a la seccion de gestionar las finanzas de mi negocio, luis clicks on Enlace de convertidor de tasa de interes, luis clicks on Boton de calcular tasa efectiva a tasa nominal, luis enters '10' into ingrese la tasa de interes, luis select Anual on seleccione la periodicidad deseada, luis select Semestral on seleccione la capitalizacion deseada]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@212d7b6a
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Validar tasa nominal a efectiva:Given luis quiere validar la tasa nominal a efectiva [Luis abrir pagina [luis opens the Url banistmo]], When accedo al portal de Banistmo
+| intTasaInteres | strPeriodicidad | strCapitalizacion |
+| 10 | Anual | Semestral | [Luis realizar flujo [luis clicks on enlace negocios de Banistmo, luis clicks on enlace herramientas de Banistmo, luis clicks on Boton para moverse a la derecha, luis clicks on Enlace que envia a la seccion de gestionar las finanzas de mi negocio, luis clicks on Enlace de convertidor de tasa de interes, luis clicks on Boton de calcular tasa efectiva a tasa nominal, luis enters '10' into ingrese la tasa de interes, luis select Anual on seleccione la periodicidad deseada, luis select Semestral on seleccione la capitalizacion deseada]], Then puedo ver el resultado de la tasa efectiva
+| strResultado |
+| 10.25 % |
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - testFinished: Validar tasa nominal a efectiva:Given luis quiere validar la tasa nominal a efectiva [Luis abrir pagina [luis opens the Url banistmo]], When accedo al portal de Banistmo
+| intTasaInteres | strPeriodicidad | strCapitalizacion |
+| 10 | Anual | Semestral | [Luis realizar flujo [luis clicks on enlace negocios de Banistmo, luis clicks on enlace herramientas de Banistmo, luis clicks on Boton para moverse a la derecha, luis clicks on Enlace que envia a la seccion de gestionar las finanzas de mi negocio, luis clicks on Enlace de convertidor de tasa de interes, luis clicks on Boton de calcular tasa efectiva a tasa nominal, luis enters '10' into ingrese la tasa de interes, luis select Anual on seleccione la periodicidad deseada, luis select Semestral on seleccione la capitalizacion deseada]], Then puedo ver el resultado de la tasa efectiva
+| strResultado |
+| 10.25 % |
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - TestOutcomes: [Validar tasa nominal a efectiva:Given luis quiere validar la tasa nominal a efectiva [Luis abrir pagina [luis opens the Url banistmo]], When accedo al portal de Banistmo
+| intTasaInteres | strPeriodicidad | strCapitalizacion |
+| 10 | Anual | Semestral | [Luis realizar flujo [luis clicks on enlace negocios de Banistmo, luis clicks on enlace herramientas de Banistmo, luis clicks on Boton para moverse a la derecha, luis clicks on Enlace que envia a la seccion de gestionar las finanzas de mi negocio, luis clicks on Enlace de convertidor de tasa de interes, luis clicks on Boton de calcular tasa efectiva a tasa nominal, luis enters '10' into ingrese la tasa de interes, luis select Anual on seleccione la periodicidad deseada, luis select Semestral on seleccione la capitalizacion deseada]], Then puedo ver el resultado de la tasa efectiva
+| strResultado |
+| 10.25 % |]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - Final testOutcomes: [Validar tasa nominal a efectiva:Given luis quiere validar la tasa nominal a efectiva [Luis abrir pagina [luis opens the Url banistmo]], When accedo al portal de Banistmo
+| intTasaInteres | strPeriodicidad | strCapitalizacion |
+| 10 | Anual | Semestral | [Luis realizar flujo [luis clicks on enlace negocios de Banistmo, luis clicks on enlace herramientas de Banistmo, luis clicks on Boton para moverse a la derecha, luis clicks on Enlace que envia a la seccion de gestionar las finanzas de mi negocio, luis clicks on Enlace de convertidor de tasa de interes, luis clicks on Boton de calcular tasa efectiva a tasa nominal, luis enters '10' into ingrese la tasa de interes, luis select Anual on seleccione la periodicidad deseada, luis select Semestral on seleccione la capitalizacion deseada]], Then puedo ver el resultado de la tasa efectiva
+| strResultado |
+| 10.25 % |]
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: Validar tasa nominal a efectiva
+----------------------------------------------------------------------------
+]]></system-err>
+</testsuite>

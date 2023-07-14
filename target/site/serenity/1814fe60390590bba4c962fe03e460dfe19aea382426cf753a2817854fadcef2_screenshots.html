@@ -1,0 +1,245 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" type="text/css" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" type="text/css" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle">Demo Project using Serenity and Cucumber</span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="76d23bc368e71a507296e6a1fe401bfa83284668ae19460c6dcc7317a1df04eb.html">Tasa Nominal A Efectiva</a></span>
+                > <span class="truncate-60"><a
+                    href="1814fe60390590bba4c962fe03e460dfe19aea382426cf753a2817854fadcef2.html">Validar tasa nominal a efectiva </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 14-07-2023 17:51</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Tasa Nominal A Efectiva </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                Como usuario, quiero validar la tasa nominal a efectiva .
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="e0e727b5b6644c8f3cb483e99b843c02eb2334fec16c0b22bee3f4c672b65ca7.html">Scenario
+                                    (tag)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="8e3b9bd5eba0a2d944ce7d2a73335e57289cd25f71e556e1618e946dc87d7ec9.html">Stories
+                                    (tag)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="53069ead7b0df7bb2fd55dc26d8afc2d3681a46615d2915b8acdf6ec33d3f0f8.html">
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Validar tasa nominal a efectiva
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="39fe9a8b8c09499aeb64543c42b25c3a1eee0ce29105acf8d5ccb661f5c99f3a.png" title=" Given luis quiere validar la tasa nominal a efectiva" width="1366"/>
+                <img src="39fe9a8b8c09499aeb64543c42b25c3a1eee0ce29105acf8d5ccb661f5c99f3a.png" title=" Luis abrir pagina" width="1366"/>
+                <img src="39fe9a8b8c09499aeb64543c42b25c3a1eee0ce29105acf8d5ccb661f5c99f3a.png" title=" luis opens the Url banistmo" width="1366"/>
+                <img src="770a92ead50bc41a41c5b0fc02dc32cbe0d57236e970ad9b35751513d405fa51.png" title=" Luis abrir pagina (completed)" width="1366"/>
+                <img src="770a92ead50bc41a41c5b0fc02dc32cbe0d57236e970ad9b35751513d405fa51.png" title=" Given luis quiere validar la tasa nominal a efectiva (completed)" width="1366"/>
+                <img src="542217b4af55fa4fdee5462f2a8cba83ed6010a958dc66365b52f7c3c988a189.png" title=" When accedo al portal de Banistmo
+| intTasaInteres | strPeriodicidad | strCapitalizacion |
+| 10 | Anual | Semestral |" width="1366"/>
+                <img src="542217b4af55fa4fdee5462f2a8cba83ed6010a958dc66365b52f7c3c988a189.png" title=" Luis realizar flujo" width="1366"/>
+                <img src="542217b4af55fa4fdee5462f2a8cba83ed6010a958dc66365b52f7c3c988a189.png" title=" luis clicks on enlace negocios de Banistmo" width="1366"/>
+                <img src="5ab44bfee6f0fa4ba1226644877861193a6153331397cf13acc0306f618acdf2.png" title=" luis clicks on enlace herramientas de Banistmo" width="1366"/>
+                <img src="a7754a17840b0b51260ff754bac5124440f2f17c739356e34666d660fc803b5e.png" title=" luis clicks on Boton para moverse a la derecha" width="1366"/>
+                <img src="9b0cfbeccb5a56958c69d3c35e9256b1b948791cbb61244dc246906476e90e91.png" title=" luis clicks on Enlace que envia a la seccion de gestionar las finanzas de mi negocio" width="1366"/>
+                <img src="c1f8356320d15eabc0d989ef423448d2605221ff89ba94e292547e5dff6f17e0.png" title=" luis clicks on Enlace de convertidor de tasa de interes" width="1366"/>
+                <img src="7ba8d04bf5169da8c46e5521d73427a15b57d0f971073a15564a5d38f6e1e824.png" title=" luis clicks on Boton de calcular tasa efectiva a tasa nominal" width="1366"/>
+                <img src="0001459cce506ac9d8f26d51e4ffe2a175404bc1606f2f55d3f78f18e05757bd.png" title=" luis enters '10' into ingrese la tasa de interes" width="1366"/>
+                <img src="1c73ca075311d073bf3a9283cf10c6d8d8b051e39ca3f57242d4dfcac74e7c0d.png" title=" luis select Anual on seleccione la periodicidad deseada" width="1366"/>
+                <img src="73972098a438d36adf4283f2aa5b3d5a9891231301cad9ed1022e174c7f64e07.png" title=" luis select Semestral on seleccione la capitalizacion deseada" width="1366"/>
+                <img src="73972098a438d36adf4283f2aa5b3d5a9891231301cad9ed1022e174c7f64e07.png" title=" Luis realizar flujo (completed)" width="1366"/>
+                <img src="73972098a438d36adf4283f2aa5b3d5a9891231301cad9ed1022e174c7f64e07.png" title=" When accedo al portal de Banistmo
+| intTasaInteres | strPeriodicidad | strCapitalizacion |
+| 10 | Anual | Semestral | (completed)" width="1366"/>
+                <img src="73972098a438d36adf4283f2aa5b3d5a9891231301cad9ed1022e174c7f64e07.png" title=" Then puedo ver el resultado de la tasa efectiva
+| strResultado |
+| 10.25 % |: <span class='success-color'>SUCCESS</span>" width="1366"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.90</span>
+</div>
+</body>
+</html>
